@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a0a0a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 28px;
+    color: #e50914;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Contenido principal */
+.main-content {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+article h2, article h3 {
+    color: #e50914;
+    border-bottom: 2px solid #e50914;
+    padding-bottom: 5px;
+}
+
+article p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Imágenes y videos */
+.video-container img, 
+.chat-screenshot img, 
+.rataalada-link img, 
+.terminal-screenshot img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.video-container img:hover, 
+.chat-screenshot img:hover, 
+.rataalada-link img:hover, 
+.terminal-screenshot img:hover {
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1a1a1a;
+    margin-top: 30px;
+    box-shadow: 0 -4px 8px rgba(255, 0, 0, 0.3);
+}
+
+footer p {
+    color: #e50914;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
