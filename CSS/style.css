@@ -45,10 +45,7 @@ article p {
 }
 
 /* Imágenes y videos */
-.video-container img, 
-.chat-screenshot img, 
-.rataalada-link img, 
-.terminal-screenshot img {
+.video-container img {
     width: 100%;
     height: auto;
     display: block;
@@ -58,7 +55,23 @@ article p {
     transition: transform 0.3s ease-in-out;
 }
 
-.video-container img:hover, 
+.video-container img:hover {
+    transform: scale(1.05);
+}
+
+.chat-screenshot img, 
+.rataalada-link img, 
+.terminal-screenshot img {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin: 15px auto;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
 .chat-screenshot img:hover, 
 .rataalada-link img:hover, 
 .terminal-screenshot img:hover {
