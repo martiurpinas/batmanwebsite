@@ -4,6 +4,10 @@ body {
     background-color: #ebd6d6;
     color: #000000;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -17,6 +21,7 @@ body {
     text-align: center;
     padding: 10px;
     margin: 0 auto; /* Center the header */
+    width: 100%;
 }
 
 .header h1 {
@@ -35,6 +40,9 @@ body {
     padding: 30px;
     text-align: center;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content h2, .content h3 {
@@ -70,8 +78,29 @@ body {
     font-size: 14px;
     margin-top: -5px;
     margin: 0 auto; /* Center the footer */
+    width: 100%;
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    background-image: url('../Imagenes/icon.png'); /* Corrected property to display the image */
+    width: 25px; /* Tamaño del logo */
+    height: 25px; /* Tamaño proporcional */
+    margin-right: 8px; /* Espaciado entre el logo y el texto */
+    background-size: contain; /* Ensure the image fits within the element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: inline-block; /* Ensure the element is displayed correctly */
+}
+
+.footer span {
+    font-size: 14px;
+    color: #505050;
+}
 .footer img {
     width: 25px;
     margin-top: 8px;
