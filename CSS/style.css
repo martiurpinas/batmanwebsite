@@ -7,7 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* Align items to the start */
+    min-height: 100vh; /* Ensure body takes full height */
 }
 
 .header {
@@ -30,6 +31,7 @@ body {
     font-weight: bold;
     color: #1b1919;
     margin: 0 auto; /* Center the header text */
+    text-align: center; /* Ensure text is centered */
 }
 
 .content {
@@ -49,12 +51,13 @@ body {
     color: #222020;
     margin-top: 15px;
     margin-bottom: 10px;
+    text-align: center; /* Ensure headings are centered */
 }
 
 .content p {
     line-height: 1.5;
     margin-bottom: 10px;
-    text-align: justify;
+    text-align: center; /* Ensure paragraphs are centered */
 }
 
 .content a {
@@ -68,6 +71,7 @@ body {
     margin: 15px auto;
     border-radius: 5px;
     display: block;
+    text-align: center; /* Ensure images are centered */
 }
 
 .footer {
