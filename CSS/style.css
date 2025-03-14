@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 .header {
-    background: url('fondo-pregunta.jpg') no-repeat center center/cover;
+    background: url(../Imagenes/header_background.jpeg) no-repeat center center/cover;
     height: 500px;
     display: flex;
     align-items: center;
