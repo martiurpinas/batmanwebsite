@@ -31,6 +31,15 @@ h1 {
     color: #fff;
     font-size: 28px;
     text-align: center; /* Center the title */
+    margin-bottom: 40px; /* Add space below the main title */
+}
+
+/* Segundo título */
+h2 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center; /* Center the second title */
+    margin-top: 20px; /* Add space above the second title */
 }
 
 /* Párrafos */
