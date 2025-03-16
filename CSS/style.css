@@ -9,6 +9,7 @@ body, html {
     background-color: #000;
     color: #fff;
     font-family: 'Arial', sans-serif;
+    text-align: center; /* Center text */
 }
 
 /* Contenedor principal */
@@ -22,12 +23,14 @@ body, html {
     border-radius: 10px;
     overflow-y: auto;
     max-height: 90vh;
+    margin: 0 auto; /* Center the container */
 }
 
 /* Título principal */
 h1 {
     color: #fff;
     font-size: 28px;
+    text-align: center; /* Center the title */
 }
 
 /* Párrafos */
