@@ -9,7 +9,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Centrar todo el texto globalmente */
+    text-align: center;
 }
 
 /* Encabezado (parte superior oscura) */
@@ -29,7 +29,7 @@ body, html {
 
 /* Contenedor principal */
 .container {
-    max-width: 500px; /* Reducir el ancho del contenedor */
+    max-width: 500px;
     width: 90%;
     background-color: #fff;
     padding: 30px 15px;
@@ -43,6 +43,15 @@ h1 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 15px;
+    /* Estilos para el fondo */
+    background-image: url('../Imagenes/header_background.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 15px 0;
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 /* Títulos secundarios */
@@ -58,7 +67,6 @@ p {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 10px;
-    text-align: justify; /* Justificar los párrafos */
 }
 
 /* Enlaces (links) */
@@ -101,8 +109,14 @@ img {
 
 /* Última imagen */
 .container img:last-child {
-    max-width: 10%;
-    margin: 15px auto;
+  max-width: 3%;
+  margin: 15px auto;
+}
+
+/*Reduce the image you send me.*/
+img[src*="PselSepNUuSxzhk/image.jpg"] {
+  width: 15%; /* Reduced image to 15% */
+  height: auto; /* Maintain aspect ratio */
 }
 
 /* Destacar palabras clave */
