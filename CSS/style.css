@@ -1,4 +1,3 @@
-/* General */ 
 body, html {
     height: 100%;
     margin: 0;
@@ -43,7 +42,6 @@ h1 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 15px;
-    /* Estilos para el fondo */
     background-image: url('../Imagenes/header_background.jpeg');
     background-size: cover;
     background-position: center;
@@ -89,6 +87,15 @@ img {
     border-radius: 8px;
 }
 
+/* Reducir el tamaño de las imágenes */
+img {
+    width: 50%; /* Ajusta este valor según lo que necesites */
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
 /* Caja de video responsivo */
 .video-container {
     position: relative;
@@ -109,7 +116,7 @@ img {
 
 /* Última imagen - igual a las anteriores */
 .container img:last-child {
-    max-width: 100%; /* Ajustado para que sea igual a las anteriores */
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 15px auto;
@@ -118,8 +125,8 @@ img {
 
 /* Reducir imagen específica si es necesario */
 img[src*="PselSepNUuSxzhk/image.jpg"] {
-    width: 15%; /* Reducido a 15% */
-    height: auto; /* Mantiene la proporción */
+    width: 15%;
+    height: auto;
 }
 
 /* Destacar palabras clave */
