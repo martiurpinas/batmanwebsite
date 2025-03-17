@@ -1,4 +1,4 @@
-/* General */
+/* General */ 
 body, html {
     height: 100%;
     margin: 0;
@@ -107,16 +107,19 @@ img {
     height: 100%;
 }
 
-/* Última imagen */
+/* Última imagen - igual a las anteriores */
 .container img:last-child {
-  max-width: 3%;
-  margin: 15px auto;
+    max-width: 100%; /* Ajustado para que sea igual a las anteriores */
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
 }
 
-/*Reduce the image you send me.*/
+/* Reducir imagen específica si es necesario */
 img[src*="PselSepNUuSxzhk/image.jpg"] {
-  width: 15%; /* Reduced image to 15% */
-  height: auto; /* Maintain aspect ratio */
+    width: 15%; /* Reducido a 15% */
+    height: auto; /* Mantiene la proporción */
 }
 
 /* Destacar palabras clave */
