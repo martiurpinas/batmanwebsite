@@ -24,12 +24,12 @@ h1 {
     font-weight: bold;
     margin-bottom: 15px;
     background-image: url('../Imagenes/header_background.jpeg');
-    background-size: 200% auto; /* Expande el fondo un 200% solo en el ancho */
+    background-size: 125%;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     color: white;
-    padding: 120px 20px;
+    padding: 250px 250px;
     text-shadow: 2px 2px 4px #000000;
     border-radius: 8px;
     display: flex;
