@@ -1,4 +1,4 @@
-body, html {
+body, html { 
     height: 100%;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body, html {
     text-align: center;
 }
 
-/* Encabezado (parte superior oscura) */
+/* Encabezado */
 .header {
     width: 100%;
     background-color: #111;
@@ -20,24 +20,6 @@ body, html {
     margin-bottom: 15px;
 }
 
-.header h1 {
-    font-size: 2em;
-    margin: 0;
-    padding: 0;
-}
-
-/* Contenedor principal */
-.container {
-    max-width: 500px;
-    width: 90%;
-    background-color: #fff;
-    padding: 30px 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin: 0 auto;
-}
-
-/* Títulos principales */
 h1 {
     font-size: 24px;
     font-weight: bold;
@@ -52,58 +34,37 @@ h1 {
     overflow: hidden;
 }
 
-/* Títulos secundarios */
-h2 {
-    color: #000;
-    font-size: 20px;
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-/* Párrafos */
-p {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-/* Enlaces (links) */
-a {
-    color: red;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
+/* Contenedor principal */
+.container {
+    max-width: 500px;
+    width: 90%;
+    background-color: #fff;
+    padding: 30px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 auto;
 }
 
 /* Imágenes */
 img {
-    max-width: 100%;
+    width: 50%; /* Tamaño fijo para todas las imágenes */
     height: auto;
     display: block;
     margin: 15px auto;
     border-radius: 8px;
 }
 
-/* Reducir el tamaño de las imágenes */
-img {
-    width: 50%; /* Ajusta este valor según lo que necesites */
-    height: auto;
-    display: block;
-    margin: 15px auto;
-    border-radius: 8px;
-}
-
-/* Caja de video responsivo */
+/* Video responsivo con imagen centrada */
 .video-container {
+    width: 50%;
+    margin: 20px auto; /* Centrado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    padding-bottom: 30%;
+    padding-bottom: 28.125%; /* Relación de aspecto 16:9 */
     height: 0;
     overflow: hidden;
-    max-width: 40%;
-    margin: 15px auto;
 }
 
 .video-container iframe {
@@ -114,28 +75,19 @@ img {
     height: 100%;
 }
 
-/* Última imagen - igual a las anteriores */
-.container img:last-child {
-    max-width: 100%;
-    height: auto;
-    display: block;
+/* Textos */
+h1, h2, p {
+    width: 50%; /* Mismo ancho que imágenes y video */
     margin: 15px auto;
-    border-radius: 8px;
-}
-
-/* Reducir imagen específica si es necesario */
-img[src*="PselSepNUuSxzhk/image.jpg"] {
-    width: 15%;
-    height: auto;
-}
-
-/* Destacar palabras clave */
-strong {
-    color: #ff0000;
 }
 
 /* Pie de página */
 footer {
     text-align: center;
     font-size: 12px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #111;
+    color: white;
+    width: 100%;
 }
