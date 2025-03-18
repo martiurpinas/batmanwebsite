@@ -25,10 +25,10 @@ h1 {
     font-weight: bold;
     margin-bottom: 15px;
     background-image: url('../Imagenes/header_background.jpeg');
-    background-size: 170% auto; /* Imagen ampliada */
-    background-position: center;
+    background-size: 200% auto; /* Aumenta el tamaño de la imagen de fondo */
+    background-position: center top; /* Ajusta la posición para que se vea mejor */
     color: white;
-    padding: 15px 0;
+    padding: 80px 20px; /* Aumenta el espacio alrededor del texto */
     text-shadow: 2px 2px 4px #000000;
     border-radius: 8px;
     overflow: hidden;
