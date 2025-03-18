@@ -29,7 +29,7 @@ h1 {
     background-repeat: no-repeat;
     width: 100%;
     color: white;
-    padding: 230px 305px;
+    padding: 245px 336px;
     text-shadow: 2px 2px 4px #000000;
     border-radius: 8px;
     display: flex;
@@ -88,5 +88,5 @@ footer {
     padding: 15px;
     background-color: #111;
     color: white;
-    width: 100%;
+    width: 97.75%;
 }
