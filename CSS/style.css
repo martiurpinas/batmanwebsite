@@ -24,14 +24,14 @@ h1 {
     font-weight: bold;
     margin-bottom: 15px;
     background-image: url('../Imagenes/header_background.jpeg');
-    background-size: 110% auto; /* Aumenta el tamaño de la imagen hacia los extremos */
+    background-size: 200% auto; /* Expande el fondo un 200% solo en el ancho */
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%; /* Se asegura de que cubra todo el ancho disponible */
+    width: 100%;
     color: white;
-    padding: 120px 20px; /* Aumenta la altura sin afectar los bordes */
+    padding: 120px 20px;
     text-shadow: 2px 2px 4px #000000;
-    border-radius: 8px; /* Mantiene los bordes redondeados */
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
