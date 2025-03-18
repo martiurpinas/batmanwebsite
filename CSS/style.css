@@ -25,7 +25,7 @@ h1 {
     font-weight: bold;
     margin-bottom: 15px;
     background-image: url('../Imagenes/header_background.jpeg');
-    background-size: cover;
+    background-size: 170% auto; /* Imagen ampliada */
     background-position: center;
     color: white;
     padding: 15px 0;
