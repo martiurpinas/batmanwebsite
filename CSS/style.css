@@ -11,7 +11,6 @@ body, html {
     text-align: center;
 }
 
-/* Encabezado */
 .header {
     width: 100%;
     background-color: #111;
@@ -25,16 +24,20 @@ h1 {
     font-weight: bold;
     margin-bottom: 15px;
     background-image: url('../Imagenes/header_background.jpeg');
-    background-size: 200% auto; /* Aumenta el tamaño de la imagen de fondo */
-    background-position: center top; /* Ajusta la posición para que se vea mejor */
+    background-size: 110% auto; /* Aumenta el tamaño de la imagen hacia los extremos */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; /* Se asegura de que cubra todo el ancho disponible */
     color: white;
-    padding: 80px 20px; /* Aumenta el espacio alrededor del texto */
+    padding: 120px 20px; /* Aumenta la altura sin afectar los bordes */
     text-shadow: 2px 2px 4px #000000;
-    border-radius: 8px;
-    overflow: hidden;
+    border-radius: 8px; /* Mantiene los bordes redondeados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-/* Contenedor principal */
 .container {
     max-width: 500px;
     width: 90%;
@@ -45,24 +48,22 @@ h1 {
     margin: 0 auto;
 }
 
-/* Imágenes */
 img {
-    width: 50%; /* Tamaño fijo para todas las imágenes */
+    width: 50%;
     height: auto;
     display: block;
     margin: 15px auto;
     border-radius: 8px;
 }
 
-/* Video responsivo con imagen centrada */
 .video-container {
     width: 50%;
-    margin: 20px auto; /* Centrado */
+    margin: 20px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    padding-bottom: 28.125%; /* Relación de aspecto 16:9 */
+    padding-bottom: 28.125%;
     height: 0;
     overflow: hidden;
 }
@@ -75,13 +76,11 @@ img {
     height: 100%;
 }
 
-/* Textos */
 h1, h2, p {
-    width: 50%; /* Mismo ancho que imágenes y video */
+    width: 50%; 
     margin: 15px auto;
 }
 
-/* Pie de página */
 footer {
     text-align: center;
     font-size: 12px;
