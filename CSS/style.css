@@ -22,16 +22,13 @@ body {
 h1 {
     font-size: 24px;
     margin-bottom: 15px;
-    background-image: url('./Imagenes/header_background.jpeg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('./Imagenes/header_background.jpeg'); /* Ruta corregida */
     width: 100%;
     color: rgb(179, 172, 172);
     padding: 245px 336px;
     text-shadow: 2px 2px 4px #ddd0d0;
     border-radius: 8px;
-    background-repeat: no-repeat;
-    height: 300px;
+    height: 300px; 
 }
 
 .container {
