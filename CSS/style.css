@@ -23,7 +23,6 @@ h1 {
     font-size: 24px;
     margin-bottom: 15px;
     background-image: url('./Imagenes/header_background.jpeg'); /* Asegúrate de que la ruta sea correcta */
-    background-size: cover;  /* Asegura que la imagen cubra todo el fondo */
     background-position: center;
     width: 100%;
     color: rgb(179, 172, 172);
