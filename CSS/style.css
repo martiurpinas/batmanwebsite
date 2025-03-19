@@ -22,20 +22,23 @@ body {
 h1 {
     font-size: 24px;
     margin-bottom: 15px;
-    background-image: url('./Imagenes/header_background.jpeg'); /* Asegúrate de que la ruta sea correcta */
+    background-image: url('./Imagenes/header_background.jpeg');
+    background-size: cover;
     background-position: center;
     width: 100%;
     color: rgb(179, 172, 172);
     padding: 245px 336px;
     text-shadow: 2px 2px 4px #ddd0d0;
     border-radius: 8px;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 
 .container {
     max-width: 500px;
     width: 90%;
     background-color: #fff;
-    padding: 300px 15px;
+    padding: 30px 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin: 0 auto;
